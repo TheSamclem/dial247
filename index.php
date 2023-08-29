@@ -1013,90 +1013,9 @@
         </div>
     </section>
     
-    <!-- Footer -->
-    <footer class="footer border-top">
-
-        <div class="container py-sm=5">
-
-
-            <div class="row">
-
-                <div class="col-lg-3 p-0">
-                    <a href="./"><img src="/img/DIAL SAFE LOGO-02.png" alt="" class="img-fluid" style="height: 120px; width: 120px;"></a>
-                </div>
-
-                
-                <div class="col-md-3 mt-4">
-                    <h5 class="pt-3 fw-bold" style="color: rgb(210, 210, 210);">Company</h5>
-                    <a href="about-us">About</a> <br>
-                    <a href="careers">Careers at Dial 24/7</a> <br>
-                    <a href="contact">Contact Us</a> <br>
-                    <a href="privacy-and-security">Privacy & Security</a> <br>
-                </div>
-             
-                <div class="col-md-3 mt-4">
-                    <h5 class="pt-3 fw-bold" style="color:  rgb(210, 210, 210);">Product</h5>
-                    <a href="#">Pricing</a> <br>
-                    <a href="#">Integrations</a> <br>
-                    <a href="#">Get Started For Free</a> <br>
-                    <a href="#">Request a Demo</a> <br>
-                </div>
-             
-                <div class="col-md-3 mt-4">
-                    <h5 class="pt-3 fw-bold" style="color:  rgb(210, 210, 210);">Resources</h5>
-                    <a href="#">Case Studies</a> <br>
-                    <a href="#">HSE</a> <br>
-                    <a href="#">Blog</a> <br>
-                    <a href="#">Legislation</a> <br>
-                </div>
-             
-
-            </div>
-
-               
-            <div class="row">
-
-                <div class="col-lg-12 d-flex justify-content-between text-white add py-sm-5">
-                   
-                    <div class="col-lg-6 add">
-                        Email  <a href="" class="text-warning">
-                            info@dial24-7portal.com
-                        </a>
-    
-                    </div>
-
-                    <p>
-                        plot 12, House 6, 2nd Avenue, Federal Housing Estate, Trans Amadi Ind. Layout, PH
-                    </p>
-
-                </div>
-
-            </div> 
-
-        </div>
-
-    </footer>
-
-    
-    <section class="socials border-top p-4" style="background-color: black;">
-        <div class="container">
-            <div class="row ">
-
-                <div class="col-lg-12 p-0 d-flex justify-content-center">
-                    
-                    <div>
-                        <a href=""><i class="ri-linkedin-box-fill fs-3 text-white" id="linkedin"></i></a>
-                        <a href=""><i class="ri-instagram-fill fs-3 text-white ms-3" id="instagram"></i></a>
-                        <a href=""><i class="ri-twitter-x-line fs-3 text-white ms-3" id="twitter"></i></a>
-                    </div>
-                   
-                </div>
-               
-            </div>
-
-        </div>
-    </section>
-
+<?php 
+    require('footer.php');
+?>
 
 
 
