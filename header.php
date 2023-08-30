@@ -20,7 +20,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    <title>Dial247Security - Official Website</title>
     <!-- CSS source file -->
     <link rel="stylesheet" href="index.css">
 
@@ -76,7 +76,7 @@
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
            
               <li class="nav-item ms-sm-5">
-                <a class="nav-link active" aria-current="page" href="about-us">About Us</a>
+                <a class="nav-link active" aria-current="page" href="about-us.php">About Us</a>
               </li>
 
               <li class="nav-item ms-sm-5">
@@ -84,7 +84,7 @@
               </li>
 
               <li class="nav-item dropdown ms-sm-5">
-                <a class="nav-link dropdown-toggle active" href="industry" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <a class="nav-link dropdown-toggle active" href="industry.php" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   Industries
                 </a>
                 <ul class="dropdown-menu">
@@ -94,7 +94,7 @@
                   <li><a class="dropdown-item" href="#">Construction & Engineering</a></li>
                   <li><a class="dropdown-item" href="#">Manufacturing</a></li>
                   <li><a class="dropdown-item" href="#">Utilities</a></li>
-                  <li><a class="dropdown-item" href="industry" style="color: blue;">View all Industries</a></li>
+                  <li><a class="dropdown-item" href="industry.php" style="color: blue;">View all Industries</a></li>
                 </ul>
               </li>
 
@@ -104,12 +104,12 @@
                   Solutions
                 </a>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="enterprise-safety">Enterprise Safety Platform</a></li>
-                  <li><a class="dropdown-item" href="personal-safety-app">Personal App Safety</a></li>
-                  <li><a class="dropdown-item" href="journey-management">Journey Management</a></li>
-                  <li><a class="dropdown-item" href="dial">Dial 24/7 Risk Assessment</a></li>
-                  <li><a class="dropdown-item" href="monitoring">24/7 Monitoring</a></li>
-                  <li><a class="dropdown-item" href="lone">Lone Worker</a></li>
+                  <li><a class="dropdown-item" href="enterprise-safety.php">Enterprise Safety Platform</a></li>
+                  <li><a class="dropdown-item" href="personal-safety-app.php">Personal App Safety</a></li>
+                  <li><a class="dropdown-item" href="journey-management.php">Journey Management</a></li>
+                  <li><a class="dropdown-item" href="dial.php">Dial 24/7 Risk Assessment</a></li>
+                  <li><a class="dropdown-item" href="monitoring.php">24/7 Monitoring</a></li>
+                  <li><a class="dropdown-item" href="lone.php">Lone Worker</a></li>
                   <li><hr class="dropdown-divider"></li>
                   <li><a class="dropdown-item fw-bold" href="iot" style="color: red;">Deep learning IoT and Data</a></li>
                   <li><a class="dropdown-item" href="#" style="color: blue;">DIALSAFE</a></li>
