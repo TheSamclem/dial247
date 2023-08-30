@@ -86,7 +86,7 @@ p {
 
 .parallax-effect {
     height: 45vh;
-    background-image: url('/img/connected.jpg');
+    background-image: url('img/connected.jpg');
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
@@ -102,7 +102,7 @@ p {
 
 .parallax-effect-2 {
     height: 45vh;
-    background-image: url('/img/threat-hunter.jpg');
+    background-image: url('img/threat-hunter.jpg');
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
@@ -366,7 +366,7 @@ p {
     
     .parallax-effect {
         height: 20vh;
-        background-image: url('/img/connected.jpg');
+        background-image: url('img/connected.jpg');
         background-attachment: fixed;
         background-position: center;
         background-size: cover;
@@ -382,7 +382,7 @@ p {
     
     .parallax-effect-2 {
         height: 20vh;
-        background-image: url('/img/threat-hunter.jpg');
+        background-image: url('img/threat-hunter.jpg');
         background-attachment: fixed;
         background-position: center;
         background-size: cover;

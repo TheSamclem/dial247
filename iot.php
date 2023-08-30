@@ -34,7 +34,7 @@
         <div class="container-fluid">
   
           <a class="navbar-brand" href="#">
-            <img src="./img/DIAL SAFE LOGO-02.png" alt="logo" style="height: 100px; width: 98px;">
+            <img src=".img/DIAL SAFE LOGO-02.png" alt="logo" style="height: 100px; width: 98px;">
           </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -123,7 +123,7 @@
     <section class="header position-relative">
 
             <div class="image-container">
-                <img src="/img/iot.jpg" alt="" class="img-fluid">
+                <img src="img/iot.jpg" alt="" class="img-fluid">
             </div>
     
            <div class="container h-100 px-lg-5 ms-sm-5 position-absolute top-0">
@@ -1034,7 +1034,7 @@
             <div class="row">
 
                 <div class="col-lg-3 p-0">
-                    <a href="#"><img src="/img/DIAL SAFE LOGO-02.png" alt="" class="img-fluid" style="height: 120px; width: 120px;"></a>
+                    <a href="#"><img src="img/DIAL SAFE LOGO-02.png" alt="" class="img-fluid" style="height: 120px; width: 120px;"></a>
                 </div>
 
                 

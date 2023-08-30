@@ -247,7 +247,7 @@ body {
 
 .parallax-effect {
     height: 45vh;
-    background-image: url('/img/african-man-talking-phone-reading-credit-card-number-while-sitting-office.jpg');
+    background-image: url('img/african-man-talking-phone-reading-credit-card-number-while-sitting-office.jpg');
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
@@ -721,7 +721,7 @@ body {
 
     .parallax-effect {
     height: 20vh;
-    background-image: url('/img/african-man-talking-phone-reading-credit-card-number-while-sitting-office.jpg');
+    background-image: url('img/african-man-talking-phone-reading-credit-card-number-while-sitting-office.jpg');
     background-attachment: fixed;
     background-position: center;
     background-size: cover;

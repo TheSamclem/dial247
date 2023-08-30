@@ -9,6 +9,9 @@
     $result_logos = $db->query($sql);
     $logos = $db->fetchAll($result_logos);
 
+    $sql_scripts = "SELECT * FROM scripts";
+    $result_sql = $db->query($sql_scripts);
+    $scripts = $db->fetchAll($result_sql);
     // print($social[0]['id']);
     // exit;
 ?>
@@ -43,6 +46,13 @@
 
     <!-- Ionic.io -->
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <?php
+    foreach ($scripts as $script) {
+      echo $script['code'];
+   
+  }
+  
+  ?>
 
     <!-- Bootstrap CDN link -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
@@ -97,11 +107,11 @@
                   <li><a class="dropdown-item" href="enterprise-safety">Enterprise Safety Platform</a></li>
                   <li><a class="dropdown-item" href="personal-safety-app">Personal App Safety</a></li>
                   <li><a class="dropdown-item" href="journey-management">Journey Management</a></li>
-                  <li><a class="dropdown-item" href="#">Dial 24/7 Risk Assessment</a></li>
-                  <li><a class="dropdown-item" href="#">24/7 Monitoring</a></li>
-                  <li><a class="dropdown-item" href="#">Lone Worker</a></li>
+                  <li><a class="dropdown-item" href="dial">Dial 24/7 Risk Assessment</a></li>
+                  <li><a class="dropdown-item" href="monitoring">24/7 Monitoring</a></li>
+                  <li><a class="dropdown-item" href="lone">Lone Worker</a></li>
                   <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item fw-bold" href="#" style="color: red;">Deep learning IoT and Data</a></li>
+                  <li><a class="dropdown-item fw-bold" href="iot" style="color: red;">Deep learning IoT and Data</a></li>
                   <li><a class="dropdown-item" href="#" style="color: blue;">DIALSAFE</a></li>
                   <li><a class="dropdown-item" href="#" style="color: blue;">I-Secure</a></li>
                   <li><a class="dropdown-item" href="#" style="color: blue;">I-Dial</a></li>

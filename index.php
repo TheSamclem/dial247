@@ -40,7 +40,7 @@
 
                 <!-- Header Image -->
                 <div class="col-lg-6 p-0">
-                    <img src="/img/Gadgetsjpg.jpg" alt="" class="img-fluid">
+                    <img src="img/Gadgetsjpg.jpg" alt="" class="img-fluid">
                 </div>
 
             </div>
@@ -108,7 +108,7 @@
                                         </div>
                 
                                         <div class="user-img">
-                                            <img src="/img/oil.jpg" alt="" class="img-fluid">
+                                            <img src="img/oil.jpg" alt="" class="img-fluid">
                                         </div>
                                     </div>
                 
@@ -135,7 +135,7 @@
                                         </div>
                 
                                         <div class="user-img">
-                                            <img src="/img/land.jpg" alt="" class="img-fluid">
+                                            <img src="img/land.jpg" alt="" class="img-fluid">
                                         </div>
                                     </div>
                 
@@ -158,7 +158,7 @@
                                         </div>
                 
                                         <div class="user-img">
-                                            <img src="/img/individual.jpg" alt="" class="img-fluid">
+                                            <img src="img/individual.jpg" alt="" class="img-fluid">
                                         </div>
                                     </div>
                 
@@ -193,7 +193,7 @@
             </div>
           <div class="carousel-item active">
             <div style="background-color: black;">
-                <img src="/img/oil.jpg" class="d-block w-100" alt="..." style="opacity: 0.5;">
+                <img src="img/oil.jpg" class="d-block w-100" alt="..." style="opacity: 0.5;">
 
             </div>
             <div class="carousel-caption">
@@ -208,7 +208,7 @@
 
           <div class="carousel-item active">
             <div style="background-color: black;">
-                <img src="/img/land.jpg" class="d-block w-100" alt="..." style="opacity: 0.5;">
+                <img src="img/land.jpg" class="d-block w-100" alt="..." style="opacity: 0.5;">
 
             </div>
             <div class="carousel-caption">
@@ -229,7 +229,7 @@
 
           <div class="carousel-item active">
             <div style="background-color: black;">
-                <img src="/img/individual.jpg" class="d-block w-100" alt="..." style="opacity: 0.5;">
+                <img src="img/individual.jpg" class="d-block w-100" alt="..." style="opacity: 0.5;">
 
             </div>
             <div class="carousel-caption">
@@ -478,7 +478,7 @@
                     border-top-left-radius: 9px;
                     border-top-right-radius: 9px;
                     border-bottom-left-radius: 9px;">
-                        <a href="#" >View all Services</a>
+                        <a href="industry" >View all Services</a>
                     </button>
                 </div>
             </div>
@@ -577,7 +577,7 @@
                 <div class="row ">
                     <div class="col-lg-12 d-flex align-items-center justify-content-center"  style="width: 800px; height: 500px;">
                         <video width="700" id="video" controls type="video/mp4">
-                            <source src="/Video/WhatsApp Video 2023-08-20 at 15.34.51.mp4" type="video/mp4">
+                            <source src="/video/WhatsApp Video 2023-08-20 at 15.34.51.mp4" type="video/mp4">
                         </video>
                     </div>
                 </div>
@@ -620,7 +620,7 @@
                 </div>
     
                 <div class="col-lg-5" data-aos="fade-left">
-                    <img src="/img/Risk-metrics.jpg" alt="" class="img-fluid">
+                    <img src="img/Risk-metrics.jpg" alt="" class="img-fluid">
                 </div>
     
             </div>
@@ -629,7 +629,7 @@
             <div class="row d-flex justify-content-around align-items-center g-3 pt-5">
     
                 <div class="col-lg-5">
-                    <img src="/img/IOT.png" alt="" class="img-fluid"  data-aos="fade-right">
+                    <img src="img/IOT.png" alt="" class="img-fluid"  data-aos="fade-right">
                 </div>
     
                 <div class="col-lg-5 pt-4" data-aos="fade-up">
@@ -677,7 +677,7 @@
                 </div>
     
                 <div class="col-lg-5" data-aos="fade-left">
-                    <img src="/img/dial24-7yy-3-removebg-preview.png" alt="" class="img-fluid">
+                    <img src="img/dial24-7yy-3-removebg-preview.png" alt="" class="img-fluid">
                 </div>
     
             </div>
@@ -1031,22 +1031,3 @@
 
     
    
-
-<!-- Bootsrap Js-->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
-
-<!-- Main JS script -->
-<script type="text/javascript" src="main.js"></script>
-
-<!-- AOS script -->
-<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-<script>
-  AOS.init({
-    duration: 1000,
-    once: true,
-  });
-</script>
-
-<script src="path-to-the-file/splide.min.js"></script>
-</body>
-</html>

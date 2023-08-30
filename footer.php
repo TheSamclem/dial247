@@ -82,3 +82,23 @@
 
     </div>
 </section>
+
+
+<!-- Bootsrap Js-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+
+<!-- Main JS script -->
+<script type="text/javascript" src="main.js"></script>
+
+<!-- AOS script -->
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init({
+    duration: 1000,
+    once: true,
+  });
+</script>
+
+<script src="path-to-the-file/splide.min.js"></script>
+</body>
+</html>

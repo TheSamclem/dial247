@@ -56,7 +56,7 @@ p {
 
 .parallax-effect {
     height: 45vh;
-    background-image: url('/img/group-afro-americans-working-together.jpg');
+    background-image: url('img/group-afro-americans-working-together.jpg');
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
@@ -72,7 +72,7 @@ p {
 
 .parallax-effect-2 {
     height: 45vh;
-    background-image: url('/img/our-mission.jpg');
+    background-image: url('img/our-mission.jpg');
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
@@ -88,7 +88,7 @@ p {
 
 .parallax-effect-3 {
     height: 45vh;
-    background-image: url('/img/network.jpg');
+    background-image: url('img/network.jpg');
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
@@ -104,7 +104,7 @@ p {
 
 .parallax-effect-4 {
     height: 45vh;
-    background-image: url('/img/panic-2.jpg');
+    background-image: url('img/panic-2.jpg');
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
@@ -120,7 +120,7 @@ p {
 
 .parallax-effect-5 {
     height: 45vh;
-    background-image: url('/img/cloud-comp.jpg');
+    background-image: url('img/cloud-comp.jpg');
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
@@ -136,7 +136,7 @@ p {
 
 .parallax-effect-6 {
     height: 45vh;
-    background-image: url('/img/engagement.jpg');
+    background-image: url('img/engagement.jpg');
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
@@ -236,7 +236,7 @@ p {
     
 .parallax-effect {
     height: 30vh;
-    background-image: url('/img/african-man-talking-phone-reading-credit-card-number-while-sitting-office.jpg');
+    background-image: url('img/african-man-talking-phone-reading-credit-card-number-while-sitting-office.jpg');
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
@@ -253,7 +253,7 @@ p {
 
 .parallax-effect-2 {
     height: 20vh;
-    background-image: url('/img/our-mission.jpg');
+    background-image: url('img/our-mission.jpg');
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
@@ -269,7 +269,7 @@ p {
 
 .parallax-effect-3 {
     height: 20vh;
-    background-image: url('/img/network.jpg');
+    background-image: url('img/network.jpg');
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
@@ -285,7 +285,7 @@ p {
 
 .parallax-effect-4 {
     height: 20vh;
-    background-image: url('/img/panic-2.jpg');
+    background-image: url('img/panic-2.jpg');
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
@@ -301,7 +301,7 @@ p {
 
 .parallax-effect-5 {
     height: 20vh;
-    background-image: url('/img/cloud-comp.jpg');
+    background-image: url('img/cloud-comp.jpg');
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
@@ -317,7 +317,7 @@ p {
 
 .parallax-effect-6 {
     height: 20vh;
-    background-image: url('/img/engagement.jpg');
+    background-image: url('img/engagement.jpg');
     background-attachment: fixed;
     background-position: center;
     background-size: cover;

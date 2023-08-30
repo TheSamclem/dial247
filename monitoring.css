@@ -83,7 +83,7 @@ body {
 
 .parallax-effect {
     height: 45vh;
-    background-image: url('/img/monitor-caller.jpg');
+    background-image: url('img/monitor-caller.jpg');
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
@@ -280,7 +280,7 @@ body {
 
 .parallax-effect {
     height: 20vh !important;
-    background-image: url('/img/monitor-caller.jpg');
+    background-image: url('img/monitor-caller.jpg');
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
