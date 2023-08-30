@@ -975,37 +975,57 @@
             <div class="row d-flex justify-content-center my-sm-5">
 
                 <div class="col-lg-6 bg-body-tertiary p-5 shadow-lg">
+                <?php
+if (isset($_REQUEST['first_name'])) {
+    $firstName = $_POST["first_name"];
+    $lastName = $_POST["last_name"];
+    $telephone = $_POST["telephone"];
+    $email = $_POST["email"];
+    $message = $_POST["message"];
 
+    $to = $social[0].email;
+    $subject = "Contact Form Submission";
+    $messageBody = "First Name: $firstName\n"
+                 . "Last Name: $lastName\n"
+                 . "Telephone: $telephone\n"
+                 . "Email: $email\n"
+                 . "Message:\n$message";
+
+    // Send the email
+    mail($to, $subject, $messageBody);
+
+
+    header("Location: index.html");
+    exit();
+}
+?>
+
+                <form  method="post">
                     <div class="row">
-
                         <div class="col">
-                          <input type="text" class="form-control" placeholder="First name" aria-label="First name">
+                            <input type="text" class="form-control" name="first_name" placeholder="First name" aria-label="First name" required>
                         </div>
                         <div class="col">
-                          <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
+                            <input type="text" class="form-control" name="last_name" placeholder="Last name" aria-label="Last name" required>
                         </div>
-                      </div>
-
-                      <div class="mb-3 mt-4">
-                        <label for="formGroupExampleInput" class="form-label">Telephone:</label>
-                        <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Your Telephone *:">
-                      </div>
-
-                      <div class="mb-3">
-                        <label for="formGroupExampleInput2" class="form-label">Emai:</label>
-                        <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Your Email *">
-                      </div>
-
-                        <div class="col-md-12">
-                        <label for="questions" class="form-label"></label>
-                        <textarea name="" id="questions" class="px-2"  rows="4" cols="30" placeholder="Type your message here"></textarea>
-                        </div>
-
-                      <div class="col-12 d-flex justify-content-end">
-                        <button type="submit" class="btn btn-dark px-4 py-2 mt-4">Submit</button>
-                      </div>
-
                     </div>
+                    <div class="mb-3 mt-4">
+                        <label for="telephone" class="form-label">Telephone:</label>
+                        <input type="text" class="form-control" name="telephone" id="telephone" placeholder="Your Telephone *" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Email:</label>
+                        <input type="email" class="form-control" name="email" id="email" placeholder="Your Email *" required>
+                    </div>
+                    <div class="col-md-12">
+                        <label for="message" class="form-label">Message:</label>
+                        <textarea name="message" id="message" class="px-2" rows="4" placeholder="Type your message here" required></textarea>
+                    </div>
+                    <div class="col-12 d-flex justify-content-end">
+                        <button type="submit" class="btn btn-dark px-4 py-2 mt-4">Submit</button>
+                    </div>
+                </form>
+
 
            
                       
