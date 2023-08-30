@@ -54,7 +54,7 @@ class MySQLWrapper {
         $this->conn->close();
     }
 }
-$host = "172.31.36.242";
+$host = "localhost";
 $username = "root";
 $password = "@Samclem91";
 $database = "security247";
